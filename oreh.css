@@ -51,11 +51,21 @@ nav {
 
 
 .main-container {
+    height: 740px;
+    background-image: url('/restaurant/photos/burger-sale.png');
+    background-repeat: no-repeat;
+    background-position: 1000px -10px;
+    position: relative;
     padding: 0 112px 45px 112px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
+
+.main-container img {
+   width: 820px;
+   height: 734px;
+} 
 
 .hero-section {
     display: flex;
@@ -113,7 +123,31 @@ nav {
 .menu-btn:hover {
     color:  white;
     background-color: #90E051;
-
 }
 
+.info-block {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-item p{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+.info-item h4{
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0%;
+}
 
