@@ -108,11 +108,13 @@ nav {
     background-color: #90E051;
     border-radius: 20px;
     color: white;
+    border: 2px solid #90E051;
 }
 
 .menu-btn {
     background: transparent;
     color: #90E051 ;
+    border: 2px solid #90E051;
 }
 
 .see-btn:hover{
@@ -123,6 +125,7 @@ nav {
 .menu-btn:hover {
     color:  white;
     background-color: #90E051;
+
 }
 
 .info-block {
