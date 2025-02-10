@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    color: #000000;
+    font-family: Rubik, sans-serif;
+}
+
+header {
+    padding: 60px 110px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+}
+.nav-item {
+    font-size: 22.33px;
+    font-weight: 500;
+    line-height: 33.5px;
+    letter-spacing: 0%;
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover a {
+    color: #90E051;
+}
+.user-nav {
+    display: flex;
+    gap: 16px;
+}
+.nav-item.active a{
+    color: #90E051;
+}
+
+
+.main-container {
+    height: 740px;
+    background-image: url('/restaurant/photos/burger-sale.png');
+    background-repeat: no-repeat;
+    background-position: 1000px -10px;
+    position: relative;
+    padding: 0 112px 45px 112px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.main-container img {
+   width: 820px;
+   height: 734px;
+} 
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    max-width: 704px;
+}
+
+.sale-title {
+    font-weight: 700;
+    font-size: 116.32px;
+    line-height: 162.03px;
+    letter-spacing: 0%;
+}
+.sale-title span {
+    color: #90E051;
+}
+
+.sale-text {
+    font-size: 22.33px;
+    font-weight: 500;
+    line-height: 33.5px;
+    letter-spacing: 0%;
+}
+
+.btn {
+    margin: 30px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 246px;
+    height: 88px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.see-btn{
+    background-color: #90E051;
+    border-radius: 20px;
+    color: white;
+}
+
+.menu-btn {
+    background: transparent;
+    color: #90E051 ;
+}
+
+.see-btn:hover{
+    color: #90E051 ;
+    background-color: white;
+    color: #90E051 ;
+}
+.menu-btn:hover {
+    color:  white;
+    background-color: #90E051;
+}
+
+.info-block {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-item p{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+.info-item h4{
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0%;
+}
+
