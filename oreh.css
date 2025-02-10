@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: rgb(229, 241, 225);
     font-size: 1rem;
     color: #000000;
     font-family: Rubik, sans-serif;
@@ -112,7 +113,7 @@ nav {
 }
 
 .menu-btn {
-    background: transparent;
+    background-color: white;
     color: #90E051 ;
     border: 2px solid #90E051;
 }
@@ -154,3 +155,43 @@ nav {
     letter-spacing: 0%;
 }
 
+.comment{
+    padding: 150px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.comment-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 676px;
+    gap: 40px;
+}
+.comment-content h2{
+    color:  #333333;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+.comment-content p{
+   color:  #828282;
+   font-weight: 400;
+   letter-spacing: 0%;
+   font-size: 20px;
+}
+.customer{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+.customer-profil h4{
+    color: #90E051;
+    font-weight: 700;
+    font-size: 22px;
+}
+.customer-profil p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #828282;
+}
