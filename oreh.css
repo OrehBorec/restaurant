@@ -28,25 +28,26 @@ nav {
     gap: 56px;
 }
 .nav-item {
+    cursor: pointer;
     font-size: 22.33px;
     font-weight: 500;
     line-height: 33.5px;
     letter-spacing: 0%;
 }
 
-.nav-item a {
+.nav-item div {
     color: #000000;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-.nav-item:hover a {
+.nav-item:hover  {
     color: #90E051;
 }
 .user-nav {
     display: flex;
     gap: 16px;
 }
-.nav-item.active a{
+.nav-item.header-home{
     color: #90E051;
 }
 
@@ -194,4 +195,55 @@ nav {
     font-size: 18px;
     letter-spacing: 0%;
     color: #828282;
+} 
+
+/* styles form */
+
+.form-container {
+    z-index: 9999;
+    right: 800px;
+    position: fixed;
+    display: none;
+    background-color: #e6ffe6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #006400;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #008000;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #90ee90;
+    border-radius: 5px;
+    background-color: #f5fff5;
+}
+
+.form-btn {
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-btn:hover {
+    background-color: #598a59;
 }
