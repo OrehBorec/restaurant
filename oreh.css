@@ -200,10 +200,11 @@ nav {
 /* styles form */
 
 .form-container {
+    transition: 500ms;
     z-index: 9999;
     right: 800px;
     position: fixed;
-    display: none;
+    transform: scale(0);
     background-color: #e6ffe6;
     padding: 20px;
     border-radius: 10px;
