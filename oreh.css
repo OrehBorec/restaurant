@@ -113,7 +113,7 @@ nav {
     border: 2px solid #90E051;
 }
 
-.menu-btn {
+.menu-button {
     background-color: white;
     color: #90E051 ;
     border: 2px solid #90E051;
@@ -124,7 +124,7 @@ nav {
     background-color: white;
     color: #90E051 ;
 }
-.menu-btn:hover {
+.menu-button:hover {
     color:  white;
     background-color: #90E051;
 
