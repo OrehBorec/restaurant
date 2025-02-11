@@ -1,10 +1,12 @@
 const contact = document.querySelector('.header-contact'); 
 const form = document.querySelector('.form-container');
 const home = document.querySelector('.header-home');
+const body = document.querySelector('body');
 let isRotated = false;
 const formButton = document.querySelector('.form-btn');
 
-contact.addEventListener('click', () => {
+contact.addEventListener('click', (event) => {
+    event.stopPropagation();
     if (!isRotated) {
         contact.style.color = '#90E051';
         home.style.color = 'black';
@@ -18,14 +20,16 @@ contact.addEventListener('click', () => {
     }
 });
 
-home.addEventListener('click', () => {
-    form.style.display = 'none';
-    home.style.color = '#90E051';
-    contact.style.color = 'black';
-    isRotated = false;
+form.addEventListener('click', (event) => {
+    event.stopPropagation();
 });
 
-formButton.addEventListener('click', () => {
-    form.style.display = 'none';
-    alert('Отправлено!');
+
+document.body.addEventListener('click', () => {
+    if (isRotated) {
+        form.style.display = 'none';
+        home.style.color = '#90E051';
+        contact.style.color = 'black';
+        isRotated = false;
+    }
 });
