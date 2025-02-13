@@ -64,8 +64,10 @@ menuBtnX.onclick = () => {
 
 document.body.addEventListener('click', () => {
     if (isRotated) {
+        home.style.color = '#90E051';
         form.style.transform = "scale(0)";
         contact.style.color = 'black';
         isRotated = false;
+        
     }
 });
